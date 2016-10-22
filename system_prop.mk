@@ -5,6 +5,8 @@
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.maxopen=3
+    media.stagefright.legacyencoder=true
+    media.stagefright.less-secure=true
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
